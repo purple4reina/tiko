@@ -1,17 +1,14 @@
-# Tikondane
+# Creative Theme for Jekyll
 
-In winter 2022 I spent 3 months volunteering at the [Tikondane Community
-Centre](https://tikondane.org) in Katete, Zambia.
+A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
 
-While there, I set the center up for crowdfunding on
-[DonorSee](https://donorsee.com/tikondane) and helped 8 families secure funding
-for life changing home improvement projects.
+Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
+The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
 
-Before leaving, I trained a group of Tiko workers to manage the crowdfunding
-project on their own.  This way they would no longer be reliant on volunteers
-and could lead all fundraising with minimal guidance.
+See it live in action at <https://volny.github.io/creative-theme-jekyll/>
 
-This repository contains all the materials I used during this training.  It is
-available on the web at
-[https://purple4reina.github.io/tiko/](https://purple4reina.github.io/tiko/) so
-the Tiko workers can easily find any answers they need.
+## To use the Creative Theme template in your project
+
+- Start by adding your info in `_config.yml`
+- In `_layouts/front.html` reorder or remove section as you prefer.
+
