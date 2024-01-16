@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
+title: Tikondane Foundation
+email: info@tikondanefoundation.org
+description: Empowering Communities, Building Futures
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+instagram_username: tikondane_community_centre
+facebook_username: tikondane.community.centre
 
 # Build settings
 markdown: kramdown
