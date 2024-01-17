@@ -74,6 +74,7 @@ aside {
 .navbar-default .navbar-header .navbar-brand img {
   margin: -12px 0;
   height: 40px;
+  visibility: hidden;
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
@@ -124,6 +125,9 @@ aside {
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
     color: #d69e1b;
+  }
+  .navbar-default.affix .navbar-header .navbar-brand img {
+    visibility: visible;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -380,6 +384,10 @@ body {
   left: 50%;
   transform: translateX(-50%);
   font-size: 15px;
+}
+
+#logo {
+  width: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */

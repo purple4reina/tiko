@@ -80,6 +80,7 @@ aside {
         img {
           margin: -12px 0;
           height: 40px;
+          visibility: hidden;
         }
     }
     .nav {
@@ -132,6 +133,9 @@ aside {
                 &:hover,
                 &:focus {
                     color: darken($theme-primary, 10%);
+                }
+                img {
+                  visibility: visible;
                 }
             }
             .nav > li > a,
@@ -359,4 +363,8 @@ body {
   left: 50%;
   transform: translateX(-50%);
   font-size: 15px;
+}
+
+#logo {
+  width: 100px;
 }
