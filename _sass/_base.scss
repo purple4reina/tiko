@@ -79,6 +79,10 @@ aside {
         &:focus {
             color: darken($theme-primary, 10%);
         }
+        img {
+          margin: -12px 0;
+          height: 40px;
+        }
     }
     .nav {
         > li {
