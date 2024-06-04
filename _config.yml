@@ -6,7 +6,7 @@ email: info@tikondanefoundation.org
 description: Empowering Communities, Building Futures
 destination: docs/
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://tikondanefoundation.org" # the base hostname & protocol for your site
 
 instagram_username: tikondane_community_centre
 facebook_username: tikondane.community.centre
