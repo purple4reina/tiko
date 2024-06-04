@@ -6,6 +6,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    {% if page.image %}
+      <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+      <meta property="og:title" content="{{ page.title }}">
+    {% endif %}
+
     <title>Tikondane foundation</title>
 
     <!-- favicon -->
