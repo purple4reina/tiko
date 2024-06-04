@@ -1,0 +1,20 @@
+<header class="header-small">
+  <div class="header-content">
+    <h1>{{ page.title }}</h1>
+  </div>
+</header>
+
+<section class="bg-primary">
+  <div class="container blog">
+    <div class="container blog-byline">
+      <p>Posted by {{ page.author }} on {{ page.date | date: "%B %d, %Y" }}</p>
+    </div>
+    <div class="container blog-content">
+      {{ content }}
+    </div>
+    <div class="conatiner blog-image">
+      <img src="{{ page.image }}" alt="{{ page.title }}">
+      {{ page.caption }}
+    </div>
+  </div>
+</section>

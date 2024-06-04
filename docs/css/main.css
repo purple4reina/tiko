@@ -394,4 +394,36 @@ body {
   width: 100px;
 }
 
+header.header-small {
+  min-height: 30%;
+}
+
+.blog .blog-byline p {
+  font-size: 13px;
+}
+.blog .blog-content p {
+  font-size: 16px;
+}
+.blog .blog-content a {
+  color: #d73f21;
+}
+.blog .blog-content a:hover {
+  color: #d69e1b;
+}
+.blog .blog-image {
+  font-size: 13px;
+  text-align: center;
+}
+.blog .blog-image img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -372,3 +372,43 @@ body {
 #logo {
   width: 100px;
 }
+
+// blog
+
+header.header-small {
+  min-height: 30%;
+}
+
+.blog {
+  .blog-byline {
+    p {
+      font-size: 13px;
+    }
+  }
+  .blog-content {
+    p {
+      font-size: 16px;
+    }
+    a {
+      color: $theme-dark;
+      &:hover {
+        color: darken($theme-primary, 10%);
+      }
+    }
+  }
+  .blog-image {
+    img {
+      width: 50%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border: 3px solid black;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    font-size: 13px;
+    text-align: center;
+  }
+}
