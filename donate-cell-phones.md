@@ -3,6 +3,7 @@ layout: blog
 title: Donate Cell Phones
 image: /img/donate-cell-phones.png
 caption: Donate any working and unlocked cell phone
+excerpt: Donate your old, unlocked smartphones to help people in Zambia and help provide life-changing opportunities for those in need. Your contribution can make a real difference!
 date: Tuesday June 4, 2024
 author: Rey Abolofia
 ---
