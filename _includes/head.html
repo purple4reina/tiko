@@ -6,11 +6,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    {% if page.image %}
+    {% if page.layout == "blog" %}
       <!-- https://stackoverflow.com/a/43154489/1020391 -->
       <meta property="og:image" content="{{ site.url }}{{ page.image }}">
       <meta property="og:title" content="{{ page.title }}">
       <meta property="og:description" content="{{ page.excerpt }}">
+      <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+      <meta property="og:type" content="article" />
     {% endif %}
 
     <title>Tikondane foundation</title>
