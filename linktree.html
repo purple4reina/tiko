@@ -1,0 +1,87 @@
+---
+layout: blog
+title: Tikondane Foundation
+excerpt: Empowering Communities, Building Futures
+---
+
+<style type="text/css">
+  div.linktree {
+    color: rgb(89, 153, 23);
+  }
+
+  div.linktree .clean-link a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  div.linktree h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  div.linktree div.project {
+    font-size: 15px;
+    border: 2px solid black;
+    margin: 15px auto;
+    width: 50%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px -5px black;
+    padding: 5px 15px;
+    align-items: center;
+  }
+
+  div.linktree div.project:hover {
+    box-shadow: 2px -2px black;
+    transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+      transition-behavior: normal, normal, normal, normal;
+      transition-duration: 0.25s, 0.25s, 0.25s, 0.25s;
+      transition-timing-function: cubic-bezier(0.08, 0.59, 0.29, 0.99), cubic-bezier(0.08, 0.59, 0.29, 0.99), cubic-bezier(0.08, 0.59, 0.29, 0.99), cubic-bezier(0.08, 0.59, 0.29, 0.99);
+      transition-delay: 0s, 0s, 0s, 0s;
+  }
+
+  div.linktree img.project-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 2px;
+    border-radius: 10px;
+  }
+</style>
+
+<div class="linktree">
+  <h3>Check out our latest DonorSee projects!</h3>
+  <div class="container projects clean-link"></div>
+</div>
+
+<script src="https://tikocrew.com/assets/javascript/requests.js" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+  const projectsContainer = document.querySelector('.projects');
+  const tikoCrewUrl = 'https://tikocrew.com';
+
+  async function loadProjects() {
+    const resp = await makeRequest('GET', tikoCrewUrl+'/linktree');
+    if (!isSuccess(resp)) {
+      console.log("Failed to load projects");
+      return;
+    }
+
+    projectsContainer.innerHTML = resp.projects.map(project => `
+      <a href="${project.share_url.replace('<', '')}" target="_blank">
+        <div class="container row project">
+          ${project.image ? `
+            <div class="col-sm-2">
+              <img class="project-image" src="${tikoCrewUrl+project.image.replace('<', '')}">
+            </div>
+          ` : ''}
+          <div class="col-sm-10">
+            ${project.title.replace('<', '')}
+          </div>
+        </div>
+      </a>
+    `).join('');
+  }
+
+  (async function() { await loadProjects() })();
+</script>
