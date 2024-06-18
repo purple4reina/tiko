@@ -7,14 +7,18 @@
 <section class="bg-primary">
   <div class="container blog">
     <div class="container blog-byline">
-      <p>Posted by {{ page.author }} on {{ page.date | date: "%B %d, %Y" }}</p>
+      {% if page.author %}
+        <p>Posted by {{ page.author }} on {{ page.date | date: "%B %d, %Y" }}</p>
+      {% endif %}
     </div>
     <div class="container blog-content">
       {{ content }}
     </div>
-    <div class="conatiner blog-image">
-      <img src="{{ page.image }}" alt="{{ page.title }}">
-      {{ page.caption }}
-    </div>
+    {% if page.image %}
+      <div class="conatiner blog-image">
+        <img src="{{ page.image }}" alt="{{ page.title }}">
+        {{ page.caption }}
+      </div>
+    {% endif %}
   </div>
 </section>
