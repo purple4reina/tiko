@@ -91,13 +91,17 @@
   </div>
 </header>
 
-<section class="bg-primary">
+<section class="bg-primary blog">
   <div class="container blog">
     <div class="container blog-byline">
       
     </div>
     <div class="container blog-content">
       <style type="text/css">
+  section.blog {
+    padding: 20px 0px 100px 0px;
+  }
+
   div.linktree {
     color: rgb(89, 153, 23);
   }
@@ -108,16 +112,16 @@
   }
 
   div.linktree h3 {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
   }
 
   div.linktree div.project {
-    font-size: 15px;
+    font-size: 20px;
     border: 2px solid black;
-    margin: 15px auto;
-    width: 50%;
-    max-width: 500px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 650px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 5px -5px black;
@@ -140,6 +144,12 @@
     object-fit: cover;
     margin: 2px;
     border-radius: 10px;
+  }
+
+  @media (min-width: 768px) {
+    .col-sm-2 {
+      width: 10%;
+    }
   }
 </style>
 
