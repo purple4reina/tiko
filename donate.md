@@ -41,9 +41,10 @@ username is `$TikondaneFoundation`. Click the button below to donate now.
 
 ## Zelle
 
-You can make a donation to the Tikondane Foundation using Zelle. Our Zelle email
-address is
-[donations@tikondanefoundation.org](mailto:donations@tikondanefoundation.org).
+To donate using Zelle, log in to your bank account and select the option to send
+money to a recipient using their email address or phone number.  Our Zelle
+email address is
+[rey@tikondanefoundation.org](mailto:rey@tikondanefoundation.org).
 
 ## Check
 
@@ -60,5 +61,5 @@ USA
 
 If you would like to make a donation via bank or wire transfer, please contact
 us at
-[donations@tikondanefoundation.org](mailto:donations@tikondanefoundation.org)
+[donate@tikondanefoundation.org](mailto:donate@tikondanefoundation.org)
 for more information.
