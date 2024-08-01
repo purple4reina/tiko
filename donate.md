@@ -47,6 +47,7 @@ If you would like to make a donation via check, please make the check payable to
 "Tikondane Foundation" and mail it to the following address:
 
 Tikondane Foundation  
+c/o Rey Abolofia  
 8310 N Edison St  
 Portland, OR 97203  
 USA
