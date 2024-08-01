@@ -6,33 +6,38 @@ excerpt: Make a donation to support the Tikondane Foundation and help provide li
 
 Make a donation to support the Tikondane Foundation and help provide
 life-changing opportunities for those in need. All contributions are 100% tax
-deductible and go directly to the foundation to support our programs and the
-people we serve.
+deductible and go directly to support our programs and the people we serve.
 
+<!--
 ## DonorSee
 
 You can make a donation to the Tikondane Foundation using DonorSee. Click the
 button below to donate now.
 
 [![Donate with DonorSee](/assets/images/donorsee-donate-button.png)](https://donorsee.com/project/XXXX)
+-->
 
 ## PayPal
 
 [Click here](https://www.paypal.com/donate/?hosted_button_id=QLPU665AR4XKY) to make a donation to the Tikondane Foundation using PayPal.
 
+<!--
 ## Venmo
 
 You can also make a donation to the Tikondane Foundation using Venmo. Our Venmo
 username is `@tikondane-foundation`. Click the button below to donate now.
 
 [![Donate with Venmo](/assets/images/venmo-donate-button.png)](https://venmo.com/tikondane-foundation)
+-->
 
+<!--
 ## Cash App
 
 You can make a donation to the Tikondane Foundation using Cash App. Our Cash App
 username is `$TikondaneFoundation`. Click the button below to donate now.
 
 [![Donate with Cash App](/assets/images/cash-app-donate-button.png)](https://cash.app/$TikondaneFoundation)
+-->
 
 ## Zelle
 
