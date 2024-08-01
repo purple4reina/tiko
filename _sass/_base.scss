@@ -380,14 +380,19 @@ header.header-small {
 }
 
 .blog {
+  h2 {
+    font-size: 30px;
+    margin-top: 50px;
+    color: $theme-green;
+  }
   .blog-byline {
     p {
-      font-size: 13px;
+      font-size: 15px;
     }
   }
   .blog-content {
     p {
-      font-size: 16px;
+      font-size: 20px;
     }
     a {
       color: $theme-dark;

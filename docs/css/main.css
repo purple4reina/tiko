@@ -398,11 +398,16 @@ header.header-small {
   min-height: 30%;
 }
 
+.blog h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  color: #5c8a2d;
+}
 .blog .blog-byline p {
-  font-size: 13px;
+  font-size: 15px;
 }
 .blog .blog-content p {
-  font-size: 16px;
+  font-size: 20px;
 }
 .blog .blog-content a {
   color: #d73f21;
