@@ -5,7 +5,9 @@ excerpt: Make a donation to support the Tikondane Foundation and help provide li
 ---
 
 Make a donation to support the Tikondane Foundation and help provide
-life-changing opportunities for those in need.
+life-changing opportunities for those in need. All contributions are 100% tax
+deductible and go directly to the foundation to support our programs and the
+people we serve.
 
 ## DonorSee
 
@@ -16,10 +18,7 @@ button below to donate now.
 
 ## PayPal
 
-You can make a donation to the Tikondane Foundation using PayPal. Click the
-button below to donate now.
-
-[![Donate with PayPal](/assets/images/paypal-donate-button.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XXXXXXXXXXXXX)
+[Click here](https://www.paypal.com/donate/?hosted_button_id=QLPU665AR4XKY) to make a donation to the Tikondane Foundation using PayPal.
 
 ## Venmo
 
