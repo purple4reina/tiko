@@ -21,6 +21,8 @@ button below to donate now.
 
 [Click here](https://www.paypal.com/donate/?hosted_button_id=QLPU665AR4XKY) to make a donation to the Tikondane Foundation using PayPal.
 
+Fees: 1.99% + $0.49 per transaction
+
 <!--
 ## Venmo
 
@@ -46,6 +48,8 @@ money to a recipient using their email address or phone number.  Our Zelle
 email address is
 [rey@tikondanefoundation.org](mailto:rey@tikondanefoundation.org).
 
+Fees: Free
+
 ## Check
 
 If you would like to make a donation via check, please make the check payable to
@@ -57,9 +61,13 @@ c/o Rey Abolofia
 Portland, OR 97203  
 USA
 
+Fees: Free
+
 ## Bank Transfer
 
 If you would like to make a donation via bank or wire transfer, please contact
 us at
 [donate@tikondanefoundation.org](mailto:donate@tikondanefoundation.org)
 for more information.
+
+Fees: Varies by bank
