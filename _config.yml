@@ -8,8 +8,8 @@ destination: docs/
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://tikondanefoundation.org" # the base hostname & protocol for your site
 
-instagram_username: tikondane_community_centre
-facebook_username: tikondane.community.centre
+instagram_username: tikondanefoundation
+facebook_username:  # TODO
 
 # Build settings
 markdown: kramdown
