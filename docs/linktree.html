@@ -167,7 +167,7 @@
   const tikoCrewUrl = 'https://tikocrew.com';
 
   async function loadProjects() {
-    const resp = await makeRequest('GET', tikoCrewUrl+'/linktree');
+    const resp = await makeRequest('GET', tikoCrewUrl+'/linktree/2');
     if (!isSuccess(resp)) {
       console.log("Failed to load projects");
       return;
